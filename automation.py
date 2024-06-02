@@ -24,9 +24,9 @@ chrome_browser.get('https://techwithjustin.net/')
 
 print(chrome_browser.title)
 
-# time.sleep(30)
+time.sleep(30)
 
-# chrome_browser.quit()
+chrome_browser.quit()
 
 # options = webdriver.ChromeOptions()
 # options.add_experimental_option("detach", True)
