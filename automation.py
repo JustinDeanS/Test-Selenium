@@ -16,19 +16,19 @@ chrome_driver_path = './chromedriver'
 # # service = Service(chrome_driver_path)
 
 # # Initialize the Chrome WebDriver with options
-# chrome_browser = webdriver.Chrome(chrome_driver_path)
+chrome_browser = webdriver.Chrome(chrome_driver_path)
 
 # # Open the website
-# chrome_browser.get('https://techwithjustin.net/')
+chrome_browser.get('https://techwithjustin.net/')
 # chrome_browser.get('https://www.youtube.com/')
 
-# print(chrome_browser.title)
+print(chrome_browser.title)
 
 # time.sleep(30)
 
 # chrome_browser.quit()
 
-options = webdriver.ChromeOptions()
-options.add_experimental_option("detach", True)
-driver=webdriver.Chrome(executable_path=chrome_driver_path,options=options)
-driver.get("https://techwithjustin.net")
+# options = webdriver.ChromeOptions()
+# options.add_experimental_option("detach", True)
+# driver=webdriver.Chrome(executable_path=chrome_driver_path,options=options)
+# driver.get("https://techwithjustin.net")
