@@ -19,6 +19,8 @@ chrome_browser = webdriver.Chrome(chrome_driver_path)
 
 # Open the website
 chrome_browser.get('https://techwithjustin.net/')
+chrome_browser.get('https://www.youtube.com/')
+
 print(chrome_browser.title)
 
 time.sleep(30)
