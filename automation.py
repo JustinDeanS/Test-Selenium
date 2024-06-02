@@ -1,7 +1,7 @@
 from selenium import webdriver
 # from selenium.webdriver.chrome.service import Service
 # from selenium.webdriver.chrome.options import Options
-# import time
+import time
 
 # Specify the path to the ChromeDriver
 chrome_driver_path = './chromedriver'
@@ -21,7 +21,7 @@ chrome_browser = webdriver.Chrome(chrome_driver_path)
 chrome_browser.get('https://techwithjustin.net/')
 print(chrome_browser.title)
 
-# time.sleep(30)
+time.sleep(30)
 
-# chrome_browser.quit()
+chrome_browser.quit()
 
