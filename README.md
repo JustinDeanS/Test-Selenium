@@ -8,3 +8,9 @@ Features
 
 Web Automation: Automate web interactions such as form filling, button clicking, and navigation.
 Cross-Browser Testing: Scripts can be configured to run on different browsers using Selenium WebDriver.
+
+Prerequisites
+
+Python 3.x
+Selenium (pip install selenium)
+Chrome WebDriver (or the WebDriver for your browser of choice)
